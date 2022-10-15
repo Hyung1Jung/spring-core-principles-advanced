@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class OrderService {
+public class OrderServicevV0 {
 
     private final OrderRepositoryV0 orderRepository;
 
