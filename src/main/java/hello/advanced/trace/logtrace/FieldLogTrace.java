@@ -3,10 +3,8 @@ package hello.advanced.trace.logtrace;
 import hello.advanced.trace.TraceId;
 import hello.advanced.trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Configuration;
 
 @Slf4j
-@Configuration
 public class FieldLogTrace implements LogTrace {
 
     private static final String START_PREFIX = "-->";

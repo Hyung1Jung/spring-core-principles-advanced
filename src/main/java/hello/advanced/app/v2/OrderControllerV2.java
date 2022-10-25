@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class OrderControllerV2 {
 
-    private final OrderServicevV2 orderServicevV2;
+    private final OrderServiceV2 orderServicevV2;
     private final HelloTraceV2 trace;
 
     @GetMapping("/v2/request")
